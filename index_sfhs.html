@@ -1,0 +1,2989 @@
+<html>
+<head>
+<title> Simulation Report of Scalable Fault Handling Strategy </title></head>
+<body>
+<h1> Simulation Report of Scalable Fault Handling Strategy </h1><br><br>
+<table border = 1>
+<tr>
+<td>
+	Average Arrival Rate for All NEs <br> (Notifications arrived per second)
+</td>
+<td>
+198.85
+</td>
+<td>
+Average Arrival Rate for Normal NEs  <br> (Notifications arrived per second)
+</td>
+<td>
+128.41
+</td>
+<td>
+Average Arrival Rate for Faulty NEs  <br> (Notifications arrived per second)
+</td>
+<td>
+70.42
+</td>
+</tr>
+<tr>
+<td>
+Maximum Arrival Rate for All NEs  <br> (Notifications arrived per second)
+</td>
+<td>
+419.00
+</td>
+<td>
+Maximum Arrival Rate for Normal NEs <br> (Notifications arrived per second)
+</td>
+<td>
+379.00
+</td>
+<td>
+Maximum Arrival Rate for Faulty NEs  <br> (Notifications arrived per second)
+</td>
+<td>
+191.55
+</td>
+</tr>
+<tr>
+<td>
+	Average Throughput for All NEs <br> (Notifications handled per second)
+</td>
+<td>
+140.57
+</td>
+<td>
+	Average Throughput for Normal NEs <br> (Notifications handled per second)
+</td>
+<td>
+128.10
+</td>
+<td>
+Average Throughput for Faulty NEs  <br> (Notifications handled per second)
+</td>
+<td>
+49.78
+</td>
+</tr>
+<tr>
+<td>
+Maximum Throughput for All NEs  <br> (Notifications handled per second)
+</td>
+<td>
+421.40
+</td>
+<td>
+Maximum Throughput for Normal NEs  <br> (Notifications handled per second)
+</td>
+<td>
+381.10
+</td>
+<td>
+Maximum Throughput for Faulty NEs  <br> (Notifications handled per second)
+</td>
+<td>
+66.30
+</td>
+</tr>
+<tr>
+<td>
+	Average Queue Delay for All NEs <br> (milliseconds) 
+</td>
+<td>
+585013.58
+</td>
+<td>
+Average Queue Delay for Normal NEs  <br> (milliseconds)
+</td>
+<td>
+11998.60
+</td>
+<td>
+Average Queue Delay for Faulty NEs  <br> (milliseconds)
+</td>
+<td>
+1630032.76
+</td>
+</tr>
+<tr>
+<td>
+Maximum Queue Delay for All NEs  <br> (milliseconds)
+</td>
+<td>
+6871664.03
+</td>
+<td>
+Maximum Queue Delay for Normal NEs  <br> (milliseconds)
+</td>
+<td>
+107166.59
+</td>
+<td>
+Maximum Queue Delay for Faulty NEs  <br> (milliseconds)
+</td>
+<td>
+6871664.03
+</td>
+</tr>
+<tr>
+<td>
+Maximum Number of Handlers
+</td>
+<td>
+96
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>
+Minimum Number of Handlers
+</td>
+<td>
+1
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>
+Average Number of Handlers
+</td>
+<td>
+26.60
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>
+Total Notifications for All NEs
+</td>
+<td>
+2915130
+</td>
+<td>
+Total Notifications for Normal NEs
+</td>
+<td>
+1882758
+</td>
+<td>
+Total Notifications for Faulty NEs
+</td>
+<td>
+1032372
+</td>
+</tr>
+<tr>
+<td>
+Notifications Handled Out of sequence
+</td>
+<td>
+0
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+<br><br>
+
+<table border = 1>
+<tr style=" font-weight: bold;">
+<td> Cumulative Graphs </td>
+</tr>
+<tr><td>
+<a href="./SFHS/ArrivalRateLog.html">Cumulative Arrival Rate Graph for All NEs</a> <br> 
+</td></tr>
+<tr><td>
+<a href="./SFHS/ThroughputLog.html">Cumulative Throughput Graph for All NEs</a> <br> 
+</td></tr>
+<tr><td>
+<a href="./SFHS/ArrivalRateLogNormal.html">Cumulative Arrival Rate Graph for Normal NEs</a> <br> 
+</td></tr>
+<tr><td>
+<a href="./SFHS/ThroughputLogNormal.html">Cumulative Throughput Graph for Normal NEs</a> <br> 
+</td></tr>
+<tr><td>
+<a href="./SFHS/ArrivalRateLogFaulty.html">Cumulative Arrival Rate Graph for Faulty NEs</a> <br> 
+</td></tr>
+<tr><td>
+<a href="./SFHS/ThroughputLogFaulty.html">Cumulative Throughput Graph for Faulty NEs</a> <br> 
+</td></tr>
+<tr><td>
+<a href="./SFHS/HandlerCountLogHtml.html">Cumulative Handlers Count Graph</a> <br>
+</td></tr>
+</table>
+<br><br>
+
+<table border = 1>
+
+<tr style=" font-weight: bold;">
+<td> ID </td>
+ <td> IP ADDRESS </td>
+ <td> Queue Delay <br> (milliseconds) </td> 
+ <td> Arrival Rate <br> (Notifications arrived per second) </td> 
+ <td> Throughput <br> (Notifications handled per second) </td> 
+ <td> Queue Size <br> (number of notifications)  </td> 
+ <td> Counters </td>  
+ <td> Graphs </td>
+ </tr><tr>
+<td>
+0
+</td>
+<td>
+196.1.110.10
+</td>
+<td>
+Average Queue Waiting = 16497.717750 <br> Maximum Queue Waiting = 107166.592000 
+</td>
+<td>
+Average Arrival Rate = 2.22 <br> Maximum Arrival Rate = 7.80 
+</td>
+<td>
+Average Throughput = 2.22 <br> Maximum Throughput = 8.25 
+</td>
+<td>
+Average Queue Size = 85.04 <br> Maximum Queue Size = 555 
+</td>
+<td>
+ Total Notifications = 32555 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_196_1_110_10.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_196_1_110_10.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_196_1_110_10.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_196_1_110_10.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+1
+</td>
+<td>
+196.1.110.11
+</td>
+<td>
+Average Queue Waiting = 8817.939631 <br> Maximum Queue Waiting = 84348.238000 
+</td>
+<td>
+Average Arrival Rate = 1.06 <br> Maximum Arrival Rate = 0.05 
+</td>
+<td>
+Average Throughput = 1.06 <br> Maximum Throughput = 0.05 
+</td>
+<td>
+Average Queue Size = 27.12 <br> Maximum Queue Size = 328 
+</td>
+<td>
+ Total Notifications = 15522 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_196_1_110_11.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_196_1_110_11.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_196_1_110_11.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_196_1_110_11.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+2
+</td>
+<td>
+196.1.110.12
+</td>
+<td>
+Average Queue Waiting = 6443.753399 <br> Maximum Queue Waiting = 86570.120000 
+</td>
+<td>
+Average Arrival Rate = 0.98 <br> Maximum Arrival Rate = 3.50 
+</td>
+<td>
+Average Throughput = 0.98 <br> Maximum Throughput = 2.45 
+</td>
+<td>
+Average Queue Size = 15.93 <br> Maximum Queue Size = 154 
+</td>
+<td>
+ Total Notifications = 14298 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_196_1_110_12.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_196_1_110_12.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_196_1_110_12.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_196_1_110_12.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+3
+</td>
+<td>
+196.1.110.13
+</td>
+<td>
+Average Queue Waiting = 12353.417165 <br> Maximum Queue Waiting = 103240.891000 
+</td>
+<td>
+Average Arrival Rate = 2.30 <br> Maximum Arrival Rate = 1.75 
+</td>
+<td>
+Average Throughput = 2.30 <br> Maximum Throughput = 0.75 
+</td>
+<td>
+Average Queue Size = 60.54 <br> Maximum Queue Size = 296 
+</td>
+<td>
+ Total Notifications = 33753 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_196_1_110_13.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_196_1_110_13.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_196_1_110_13.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_196_1_110_13.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+4
+</td>
+<td>
+196.1.110.14
+</td>
+<td>
+Average Queue Waiting = 5736.321812 <br> Maximum Queue Waiting = 59173.221000 
+</td>
+<td>
+Average Arrival Rate = 1.06 <br> Maximum Arrival Rate = 3.10 
+</td>
+<td>
+Average Throughput = 1.05 <br> Maximum Throughput = 2.20 
+</td>
+<td>
+Average Queue Size = 15.23 <br> Maximum Queue Size = 96 
+</td>
+<td>
+ Total Notifications = 15472 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_196_1_110_14.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_196_1_110_14.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_196_1_110_14.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_196_1_110_14.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+5
+</td>
+<td>
+196.1.110.15
+</td>
+<td>
+Average Queue Waiting = 13859.100090 <br> Maximum Queue Waiting = 84558.237000 
+</td>
+<td>
+Average Arrival Rate = 2.32 <br> Maximum Arrival Rate = 5.75 
+</td>
+<td>
+Average Throughput = 2.32 <br> Maximum Throughput = 3.90 
+</td>
+<td>
+Average Queue Size = 72.49 <br> Maximum Queue Size = 379 
+</td>
+<td>
+ Total Notifications = 33996 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_196_1_110_15.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_196_1_110_15.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_196_1_110_15.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_196_1_110_15.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+6
+</td>
+<td>
+196.1.110.16
+</td>
+<td>
+Average Queue Waiting = 9055.580821 <br> Maximum Queue Waiting = 67219.093000 
+</td>
+<td>
+Average Arrival Rate = 1.56 <br> Maximum Arrival Rate = 4.45 
+</td>
+<td>
+Average Throughput = 1.56 <br> Maximum Throughput = 5.95 
+</td>
+<td>
+Average Queue Size = 35.22 <br> Maximum Queue Size = 219 
+</td>
+<td>
+ Total Notifications = 22812 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_196_1_110_16.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_196_1_110_16.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_196_1_110_16.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_196_1_110_16.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+7
+</td>
+<td>
+196.1.110.17
+</td>
+<td>
+Average Queue Waiting = 2541.630402 <br> Maximum Queue Waiting = 64521.450000 
+</td>
+<td>
+Average Arrival Rate = 0.23 <br> Maximum Arrival Rate = 0.05 
+</td>
+<td>
+Average Throughput = 0.23 <br> Maximum Throughput = 0.05 
+</td>
+<td>
+Average Queue Size = 2.51 <br> Maximum Queue Size = 35 
+</td>
+<td>
+ Total Notifications = 3356 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_196_1_110_17.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_196_1_110_17.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_196_1_110_17.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_196_1_110_17.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+8
+</td>
+<td>
+196.1.110.18
+</td>
+<td>
+Average Queue Waiting = 17358.569243 <br> Maximum Queue Waiting = 91363.902000 
+</td>
+<td>
+Average Arrival Rate = 1.65 <br> Maximum Arrival Rate = 6.50 
+</td>
+<td>
+Average Throughput = 1.65 <br> Maximum Throughput = 6.55 
+</td>
+<td>
+Average Queue Size = 85.20 <br> Maximum Queue Size = 331 
+</td>
+<td>
+ Total Notifications = 24260 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_196_1_110_18.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_196_1_110_18.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_196_1_110_18.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_196_1_110_18.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+9
+</td>
+<td>
+196.1.110.19
+</td>
+<td>
+Average Queue Waiting = 9898.189785 <br> Maximum Queue Waiting = 91651.567000 
+</td>
+<td>
+Average Arrival Rate = 1.31 <br> Maximum Arrival Rate = 4.25 
+</td>
+<td>
+Average Throughput = 1.31 <br> Maximum Throughput = 3.50 
+</td>
+<td>
+Average Queue Size = 29.88 <br> Maximum Queue Size = 237 
+</td>
+<td>
+ Total Notifications = 19181 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_196_1_110_19.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_196_1_110_19.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_196_1_110_19.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_196_1_110_19.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+10
+</td>
+<td>
+196.1.110.20
+</td>
+<td>
+Average Queue Waiting = 5648.629457 <br> Maximum Queue Waiting = 80607.567000 
+</td>
+<td>
+Average Arrival Rate = 0.49 <br> Maximum Arrival Rate = 1.30 
+</td>
+<td>
+Average Throughput = 0.49 <br> Maximum Throughput = 1.45 
+</td>
+<td>
+Average Queue Size = 8.49 <br> Maximum Queue Size = 120 
+</td>
+<td>
+ Total Notifications = 7153 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_196_1_110_20.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_196_1_110_20.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_196_1_110_20.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_196_1_110_20.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+11
+</td>
+<td>
+196.1.110.21
+</td>
+<td>
+Average Queue Waiting = 8513.067419 <br> Maximum Queue Waiting = 84096.380000 
+</td>
+<td>
+Average Arrival Rate = 0.86 <br> Maximum Arrival Rate = 1.00 
+</td>
+<td>
+Average Throughput = 0.86 <br> Maximum Throughput = 0.75 
+</td>
+<td>
+Average Queue Size = 21.59 <br> Maximum Queue Size = 186 
+</td>
+<td>
+ Total Notifications = 12578 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_196_1_110_21.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_196_1_110_21.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_196_1_110_21.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_196_1_110_21.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+12
+</td>
+<td>
+10.0.0.9
+</td>
+<td>
+Average Queue Waiting = 4971.696672 <br> Maximum Queue Waiting = 75057.755000 
+</td>
+<td>
+Average Arrival Rate = 0.55 <br> Maximum Arrival Rate = 1.10 
+</td>
+<td>
+Average Throughput = 0.55 <br> Maximum Throughput = 1.10 
+</td>
+<td>
+Average Queue Size = 8.34 <br> Maximum Queue Size = 74 
+</td>
+<td>
+ Total Notifications = 8092 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_10_0_0_9.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_10_0_0_9.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_10_0_0_9.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_10_0_0_9.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+13
+</td>
+<td>
+10.0.0.10
+</td>
+<td>
+Average Queue Waiting = 1683569.518802 <br> Maximum Queue Waiting = 3582557.516000 
+</td>
+<td>
+Average Arrival Rate = 7.42 <br> Maximum Arrival Rate = 2.95 
+</td>
+<td>
+Average Throughput = 7.41 <br> Maximum Throughput = 3.30 
+</td>
+<td>
+Average Queue Size = 14002.35 <br> Maximum Queue Size = 29845 
+</td>
+<td>
+ Total Notifications = 107253 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = YES  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_10_0_0_10.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_10_0_0_10.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_10_0_0_10.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_10_0_0_10.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+14
+</td>
+<td>
+10.0.0.11
+</td>
+<td>
+Average Queue Waiting = 13207.623509 <br> Maximum Queue Waiting = 80050.508000 
+</td>
+<td>
+Average Arrival Rate = 1.95 <br> Maximum Arrival Rate = 6.05 
+</td>
+<td>
+Average Throughput = 1.95 <br> Maximum Throughput = 3.20 
+</td>
+<td>
+Average Queue Size = 63.32 <br> Maximum Queue Size = 280 
+</td>
+<td>
+ Total Notifications = 28481 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_10_0_0_11.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_10_0_0_11.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_10_0_0_11.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_10_0_0_11.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+15
+</td>
+<td>
+10.0.0.12
+</td>
+<td>
+Average Queue Waiting = 4458.720713 <br> Maximum Queue Waiting = 79319.362000 
+</td>
+<td>
+Average Arrival Rate = 0.56 <br> Maximum Arrival Rate = 0.05 
+</td>
+<td>
+Average Throughput = 0.56 <br> Maximum Throughput = 0.05 
+</td>
+<td>
+Average Queue Size = 7.07 <br> Maximum Queue Size = 76 
+</td>
+<td>
+ Total Notifications = 8228 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_10_0_0_12.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_10_0_0_12.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_10_0_0_12.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_10_0_0_12.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+16
+</td>
+<td>
+10.0.0.13
+</td>
+<td>
+Average Queue Waiting = 8413.153765 <br> Maximum Queue Waiting = 90231.002000 
+</td>
+<td>
+Average Arrival Rate = 1.22 <br> Maximum Arrival Rate = 4.20 
+</td>
+<td>
+Average Throughput = 1.22 <br> Maximum Throughput = 4.20 
+</td>
+<td>
+Average Queue Size = 24.95 <br> Maximum Queue Size = 152 
+</td>
+<td>
+ Total Notifications = 17830 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_10_0_0_13.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_10_0_0_13.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_10_0_0_13.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_10_0_0_13.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+17
+</td>
+<td>
+10.0.0.14
+</td>
+<td>
+Average Queue Waiting = 13430.119281 <br> Maximum Queue Waiting = 91207.288000 
+</td>
+<td>
+Average Arrival Rate = 1.64 <br> Maximum Arrival Rate = 6.70 
+</td>
+<td>
+Average Throughput = 1.64 <br> Maximum Throughput = 2.45 
+</td>
+<td>
+Average Queue Size = 58.44 <br> Maximum Queue Size = 299 
+</td>
+<td>
+ Total Notifications = 23944 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_10_0_0_14.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_10_0_0_14.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_10_0_0_14.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_10_0_0_14.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+18
+</td>
+<td>
+10.0.0.15
+</td>
+<td>
+Average Queue Waiting = 11766.969712 <br> Maximum Queue Waiting = 73422.958000 
+</td>
+<td>
+Average Arrival Rate = 1.46 <br> Maximum Arrival Rate = 5.70 
+</td>
+<td>
+Average Throughput = 1.46 <br> Maximum Throughput = 5.70 
+</td>
+<td>
+Average Queue Size = 43.83 <br> Maximum Queue Size = 220 
+</td>
+<td>
+ Total Notifications = 21332 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_10_0_0_15.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_10_0_0_15.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_10_0_0_15.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_10_0_0_15.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+19
+</td>
+<td>
+10.0.0.16
+</td>
+<td>
+Average Queue Waiting = 8384.312033 <br> Maximum Queue Waiting = 82041.233000 
+</td>
+<td>
+Average Arrival Rate = 0.96 <br> Maximum Arrival Rate = 2.85 
+</td>
+<td>
+Average Throughput = 0.96 <br> Maximum Throughput = 0.05 
+</td>
+<td>
+Average Queue Size = 22.70 <br> Maximum Queue Size = 238 
+</td>
+<td>
+ Total Notifications = 13993 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_10_0_0_16.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_10_0_0_16.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_10_0_0_16.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_10_0_0_16.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+20
+</td>
+<td>
+10.0.0.17
+</td>
+<td>
+Average Queue Waiting = 4403.900422 <br> Maximum Queue Waiting = 75916.732000 
+</td>
+<td>
+Average Arrival Rate = 0.70 <br> Maximum Arrival Rate = 1.75 
+</td>
+<td>
+Average Throughput = 0.70 <br> Maximum Throughput = 1.60 
+</td>
+<td>
+Average Queue Size = 7.93 <br> Maximum Queue Size = 73 
+</td>
+<td>
+ Total Notifications = 10257 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_10_0_0_17.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_10_0_0_17.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_10_0_0_17.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_10_0_0_17.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+21
+</td>
+<td>
+10.0.0.18
+</td>
+<td>
+Average Queue Waiting = 17383.047395 <br> Maximum Queue Waiting = 61507.650000 
+</td>
+<td>
+Average Arrival Rate = 1.91 <br> Maximum Arrival Rate = 4.70 
+</td>
+<td>
+Average Throughput = 1.91 <br> Maximum Throughput = 2.05 
+</td>
+<td>
+Average Queue Size = 100.82 <br> Maximum Queue Size = 355 
+</td>
+<td>
+ Total Notifications = 28050 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_10_0_0_18.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_10_0_0_18.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_10_0_0_18.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_10_0_0_18.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+22
+</td>
+<td>
+10.0.0.19
+</td>
+<td>
+Average Queue Waiting = 17022.312332 <br> Maximum Queue Waiting = 48613.511000 
+</td>
+<td>
+Average Arrival Rate = 1.87 <br> Maximum Arrival Rate = 6.15 
+</td>
+<td>
+Average Throughput = 1.87 <br> Maximum Throughput = 8.20 
+</td>
+<td>
+Average Queue Size = 94.38 <br> Maximum Queue Size = 343 
+</td>
+<td>
+ Total Notifications = 27388 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_10_0_0_19.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_10_0_0_19.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_10_0_0_19.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_10_0_0_19.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+23
+</td>
+<td>
+10.0.0.20
+</td>
+<td>
+Average Queue Waiting = 5159.725330 <br> Maximum Queue Waiting = 74234.336000 
+</td>
+<td>
+Average Arrival Rate = 0.57 <br> Maximum Arrival Rate = 2.15 
+</td>
+<td>
+Average Throughput = 0.57 <br> Maximum Throughput = 2.10 
+</td>
+<td>
+Average Queue Size = 8.59 <br> Maximum Queue Size = 103 
+</td>
+<td>
+ Total Notifications = 8048 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_10_0_0_20.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_10_0_0_20.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_10_0_0_20.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_10_0_0_20.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+24
+</td>
+<td>
+10.0.0.21
+</td>
+<td>
+Average Queue Waiting = 1350703.573912 <br> Maximum Queue Waiting = 3067295.599000 
+</td>
+<td>
+Average Arrival Rate = 7.69 <br> Maximum Arrival Rate = 7.30 
+</td>
+<td>
+Average Throughput = 7.44 <br> Maximum Throughput = 8.35 
+</td>
+<td>
+Average Queue Size = 11225.16 <br> Maximum Queue Size = 25548 
+</td>
+<td>
+ Total Notifications = 112219 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = YES  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_10_0_0_21.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_10_0_0_21.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_10_0_0_21.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_10_0_0_21.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+25
+</td>
+<td>
+192.168.5.6
+</td>
+<td>
+Average Queue Waiting = 15844.735459 <br> Maximum Queue Waiting = 88037.802000 
+</td>
+<td>
+Average Arrival Rate = 2.56 <br> Maximum Arrival Rate = 8.00 
+</td>
+<td>
+Average Throughput = 2.55 <br> Maximum Throughput = 2.55 
+</td>
+<td>
+Average Queue Size = 100.63 <br> Maximum Queue Size = 442 
+</td>
+<td>
+ Total Notifications = 37471 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_192_168_5_6.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_192_168_5_6.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_192_168_5_6.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_192_168_5_6.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+26
+</td>
+<td>
+192.168.5.7
+</td>
+<td>
+Average Queue Waiting = 7956.885711 <br> Maximum Queue Waiting = 84500.553000 
+</td>
+<td>
+Average Arrival Rate = 1.16 <br> Maximum Arrival Rate = 4.25 
+</td>
+<td>
+Average Throughput = 1.16 <br> Maximum Throughput = 4.25 
+</td>
+<td>
+Average Queue Size = 25.67 <br> Maximum Queue Size = 158 
+</td>
+<td>
+ Total Notifications = 16976 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_192_168_5_7.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_192_168_5_7.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_192_168_5_7.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_192_168_5_7.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+27
+</td>
+<td>
+192.168.5.8
+</td>
+<td>
+Average Queue Waiting = 1559.083332 <br> Maximum Queue Waiting = 49235.512000 
+</td>
+<td>
+Average Arrival Rate = 0.36 <br> Maximum Arrival Rate = 0.95 
+</td>
+<td>
+Average Throughput = 0.36 <br> Maximum Throughput = 0.95 
+</td>
+<td>
+Average Queue Size = 1.79 <br> Maximum Queue Size = 57 
+</td>
+<td>
+ Total Notifications = 5197 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_192_168_5_8.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_192_168_5_8.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_192_168_5_8.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_192_168_5_8.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+28
+</td>
+<td>
+192.168.5.9
+</td>
+<td>
+Average Queue Waiting = 9569.915670 <br> Maximum Queue Waiting = 86342.607000 
+</td>
+<td>
+Average Arrival Rate = 1.11 <br> Maximum Arrival Rate = 1.10 
+</td>
+<td>
+Average Throughput = 1.11 <br> Maximum Throughput = 1.00 
+</td>
+<td>
+Average Queue Size = 35.26 <br> Maximum Queue Size = 184 
+</td>
+<td>
+ Total Notifications = 16235 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_192_168_5_9.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_192_168_5_9.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_192_168_5_9.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_192_168_5_9.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+29
+</td>
+<td>
+192.168.5.10
+</td>
+<td>
+Average Queue Waiting = 10680.729465 <br> Maximum Queue Waiting = 94604.759000 
+</td>
+<td>
+Average Arrival Rate = 0.96 <br> Maximum Arrival Rate = 3.75 
+</td>
+<td>
+Average Throughput = 0.96 <br> Maximum Throughput = 3.80 
+</td>
+<td>
+Average Queue Size = 31.50 <br> Maximum Queue Size = 153 
+</td>
+<td>
+ Total Notifications = 14001 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_192_168_5_10.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_192_168_5_10.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_192_168_5_10.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_192_168_5_10.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+30
+</td>
+<td>
+192.168.5.11
+</td>
+<td>
+Average Queue Waiting = 11098.797554 <br> Maximum Queue Waiting = 65394.238000 
+</td>
+<td>
+Average Arrival Rate = 1.42 <br> Maximum Arrival Rate = 4.70 
+</td>
+<td>
+Average Throughput = 1.42 <br> Maximum Throughput = 4.70 
+</td>
+<td>
+Average Queue Size = 43.08 <br> Maximum Queue Size = 195 
+</td>
+<td>
+ Total Notifications = 20793 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_192_168_5_11.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_192_168_5_11.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_192_168_5_11.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_192_168_5_11.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+31
+</td>
+<td>
+192.168.5.12
+</td>
+<td>
+Average Queue Waiting = 1684.778714 <br> Maximum Queue Waiting = 49346.646000 
+</td>
+<td>
+Average Arrival Rate = 0.28 <br> Maximum Arrival Rate = 1.25 
+</td>
+<td>
+Average Throughput = 0.28 <br> Maximum Throughput = 1.25 
+</td>
+<td>
+Average Queue Size = 2.22 <br> Maximum Queue Size = 64 
+</td>
+<td>
+ Total Notifications = 4168 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_192_168_5_12.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_192_168_5_12.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_192_168_5_12.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_192_168_5_12.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+32
+</td>
+<td>
+192.168.5.13
+</td>
+<td>
+Average Queue Waiting = 8228.206949 <br> Maximum Queue Waiting = 90629.877000 
+</td>
+<td>
+Average Arrival Rate = 1.08 <br> Maximum Arrival Rate = 2.05 
+</td>
+<td>
+Average Throughput = 1.08 <br> Maximum Throughput = 2.05 
+</td>
+<td>
+Average Queue Size = 21.34 <br> Maximum Queue Size = 290 
+</td>
+<td>
+ Total Notifications = 15725 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_192_168_5_13.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_192_168_5_13.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_192_168_5_13.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_192_168_5_13.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+33
+</td>
+<td>
+192.168.5.14
+</td>
+<td>
+Average Queue Waiting = 1734130.863893 <br> Maximum Queue Waiting = 3807746.606000 
+</td>
+<td>
+Average Arrival Rate = 6.59 <br> Maximum Arrival Rate = 163.50 
+</td>
+<td>
+Average Throughput = 6.45 <br> Maximum Throughput = 8.25 
+</td>
+<td>
+Average Queue Size = 14386.30 <br> Maximum Queue Size = 31623 
+</td>
+<td>
+ Total Notifications = 96690 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = YES  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_192_168_5_14.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_192_168_5_14.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_192_168_5_14.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_192_168_5_14.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+34
+</td>
+<td>
+192.168.5.15
+</td>
+<td>
+Average Queue Waiting = 9375.607452 <br> Maximum Queue Waiting = 85930.449000 
+</td>
+<td>
+Average Arrival Rate = 0.75 <br> Maximum Arrival Rate = 0.05 
+</td>
+<td>
+Average Throughput = 0.75 <br> Maximum Throughput = 2.40 
+</td>
+<td>
+Average Queue Size = 22.62 <br> Maximum Queue Size = 124 
+</td>
+<td>
+ Total Notifications = 10923 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_192_168_5_15.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_192_168_5_15.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_192_168_5_15.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_192_168_5_15.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+35
+</td>
+<td>
+192.168.5.16
+</td>
+<td>
+Average Queue Waiting = 4677.331249 <br> Maximum Queue Waiting = 82553.021000 
+</td>
+<td>
+Average Arrival Rate = 0.61 <br> Maximum Arrival Rate = 2.15 
+</td>
+<td>
+Average Throughput = 0.61 <br> Maximum Throughput = 2.20 
+</td>
+<td>
+Average Queue Size = 8.01 <br> Maximum Queue Size = 83 
+</td>
+<td>
+ Total Notifications = 8850 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_192_168_5_16.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_192_168_5_16.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_192_168_5_16.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_192_168_5_16.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+36
+</td>
+<td>
+192.168.5.17
+</td>
+<td>
+Average Queue Waiting = 11501.012993 <br> Maximum Queue Waiting = 96644.067000 
+</td>
+<td>
+Average Arrival Rate = 2.00 <br> Maximum Arrival Rate = 5.75 
+</td>
+<td>
+Average Throughput = 2.00 <br> Maximum Throughput = 8.20 
+</td>
+<td>
+Average Queue Size = 53.93 <br> Maximum Queue Size = 317 
+</td>
+<td>
+ Total Notifications = 29221 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_192_168_5_17.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_192_168_5_17.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_192_168_5_17.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_192_168_5_17.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+37
+</td>
+<td>
+192.168.5.18
+</td>
+<td>
+Average Queue Waiting = 11135.169330 <br> Maximum Queue Waiting = 93763.621000 
+</td>
+<td>
+Average Arrival Rate = 1.39 <br> Maximum Arrival Rate = 4.85 
+</td>
+<td>
+Average Throughput = 1.39 <br> Maximum Throughput = 6.65 
+</td>
+<td>
+Average Queue Size = 43.40 <br> Maximum Queue Size = 407 
+</td>
+<td>
+ Total Notifications = 20290 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_192_168_5_18.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_192_168_5_18.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_192_168_5_18.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_192_168_5_18.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+38
+</td>
+<td>
+192.168.5.19
+</td>
+<td>
+Average Queue Waiting = 15445.082648 <br> Maximum Queue Waiting = 97318.413000 
+</td>
+<td>
+Average Arrival Rate = 1.68 <br> Maximum Arrival Rate = 3.30 
+</td>
+<td>
+Average Throughput = 1.68 <br> Maximum Throughput = 0.05 
+</td>
+<td>
+Average Queue Size = 74.55 <br> Maximum Queue Size = 300 
+</td>
+<td>
+ Total Notifications = 24563 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_192_168_5_19.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_192_168_5_19.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_192_168_5_19.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_192_168_5_19.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+39
+</td>
+<td>
+192.168.5.20
+</td>
+<td>
+Average Queue Waiting = 5436.723163 <br> Maximum Queue Waiting = 78582.494000 
+</td>
+<td>
+Average Arrival Rate = 0.63 <br> Maximum Arrival Rate = 1.20 
+</td>
+<td>
+Average Throughput = 0.63 <br> Maximum Throughput = 0.55 
+</td>
+<td>
+Average Queue Size = 9.00 <br> Maximum Queue Size = 64 
+</td>
+<td>
+ Total Notifications = 9157 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_192_168_5_20.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_192_168_5_20.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_192_168_5_20.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_192_168_5_20.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+40
+</td>
+<td>
+192.168.5.21
+</td>
+<td>
+Average Queue Waiting = 1744.739636 <br> Maximum Queue Waiting = 52834.315000 
+</td>
+<td>
+Average Arrival Rate = 0.29 <br> Maximum Arrival Rate = 0.05 
+</td>
+<td>
+Average Throughput = 0.29 <br> Maximum Throughput = 0.05 
+</td>
+<td>
+Average Queue Size = 2.01 <br> Maximum Queue Size = 66 
+</td>
+<td>
+ Total Notifications = 4225 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_192_168_5_21.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_192_168_5_21.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_192_168_5_21.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_192_168_5_21.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+41
+</td>
+<td>
+192.168.20.40
+</td>
+<td>
+Average Queue Waiting = 12173.794775 <br> Maximum Queue Waiting = 95648.910000 
+</td>
+<td>
+Average Arrival Rate = 2.10 <br> Maximum Arrival Rate = 6.75 
+</td>
+<td>
+Average Throughput = 2.10 <br> Maximum Throughput = 3.15 
+</td>
+<td>
+Average Queue Size = 57.25 <br> Maximum Queue Size = 296 
+</td>
+<td>
+ Total Notifications = 30701 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_192_168_20_40.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_192_168_20_40.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_192_168_20_40.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_192_168_20_40.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+42
+</td>
+<td>
+192.168.20.41
+</td>
+<td>
+Average Queue Waiting = 1009473.151972 <br> Maximum Queue Waiting = 2827160.191000 
+</td>
+<td>
+Average Arrival Rate = 6.53 <br> Maximum Arrival Rate = 212.75 
+</td>
+<td>
+Average Throughput = 5.97 <br> Maximum Throughput = 8.20 
+</td>
+<td>
+Average Queue Size = 8347.36 <br> Maximum Queue Size = 23559 
+</td>
+<td>
+ Total Notifications = 95812 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = YES  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_192_168_20_41.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_192_168_20_41.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_192_168_20_41.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_192_168_20_41.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+43
+</td>
+<td>
+192.168.20.42
+</td>
+<td>
+Average Queue Waiting = 17203.348543 <br> Maximum Queue Waiting = 76386.450000 
+</td>
+<td>
+Average Arrival Rate = 2.47 <br> Maximum Arrival Rate = 7.65 
+</td>
+<td>
+Average Throughput = 2.47 <br> Maximum Throughput = 7.45 
+</td>
+<td>
+Average Queue Size = 103.46 <br> Maximum Queue Size = 363 
+</td>
+<td>
+ Total Notifications = 36288 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_192_168_20_42.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_192_168_20_42.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_192_168_20_42.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_192_168_20_42.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+44
+</td>
+<td>
+192.168.20.43
+</td>
+<td>
+Average Queue Waiting = 4601.707790 <br> Maximum Queue Waiting = 75957.078000 
+</td>
+<td>
+Average Arrival Rate = 0.67 <br> Maximum Arrival Rate = 1.85 
+</td>
+<td>
+Average Throughput = 0.67 <br> Maximum Throughput = 1.75 
+</td>
+<td>
+Average Queue Size = 8.05 <br> Maximum Queue Size = 133 
+</td>
+<td>
+ Total Notifications = 9811 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_192_168_20_43.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_192_168_20_43.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_192_168_20_43.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_192_168_20_43.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+45
+</td>
+<td>
+192.168.20.44
+</td>
+<td>
+Average Queue Waiting = 11906.802849 <br> Maximum Queue Waiting = 80580.868000 
+</td>
+<td>
+Average Arrival Rate = 1.96 <br> Maximum Arrival Rate = 6.35 
+</td>
+<td>
+Average Throughput = 1.96 <br> Maximum Throughput = 6.35 
+</td>
+<td>
+Average Queue Size = 52.45 <br> Maximum Queue Size = 275 
+</td>
+<td>
+ Total Notifications = 28737 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_192_168_20_44.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_192_168_20_44.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_192_168_20_44.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_192_168_20_44.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+46
+</td>
+<td>
+192.168.20.45
+</td>
+<td>
+Average Queue Waiting = 9025.321977 <br> Maximum Queue Waiting = 89927.171000 
+</td>
+<td>
+Average Arrival Rate = 1.14 <br> Maximum Arrival Rate = 2.80 
+</td>
+<td>
+Average Throughput = 1.14 <br> Maximum Throughput = 0.75 
+</td>
+<td>
+Average Queue Size = 28.88 <br> Maximum Queue Size = 296 
+</td>
+<td>
+ Total Notifications = 16530 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_192_168_20_45.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_192_168_20_45.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_192_168_20_45.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_192_168_20_45.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+47
+</td>
+<td>
+192.168.20.46
+</td>
+<td>
+Average Queue Waiting = 17484.658550 <br> Maximum Queue Waiting = 78160.236000 
+</td>
+<td>
+Average Arrival Rate = 2.41 <br> Maximum Arrival Rate = 8.00 
+</td>
+<td>
+Average Throughput = 2.41 <br> Maximum Throughput = 8.05 
+</td>
+<td>
+Average Queue Size = 104.41 <br> Maximum Queue Size = 394 
+</td>
+<td>
+ Total Notifications = 35222 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_192_168_20_46.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_192_168_20_46.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_192_168_20_46.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_192_168_20_46.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+48
+</td>
+<td>
+192.168.20.47
+</td>
+<td>
+Average Queue Waiting = 15739.357494 <br> Maximum Queue Waiting = 79519.966000 
+</td>
+<td>
+Average Arrival Rate = 1.96 <br> Maximum Arrival Rate = 8.15 
+</td>
+<td>
+Average Throughput = 1.96 <br> Maximum Throughput = 8.25 
+</td>
+<td>
+Average Queue Size = 85.72 <br> Maximum Queue Size = 377 
+</td>
+<td>
+ Total Notifications = 28502 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_192_168_20_47.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_192_168_20_47.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_192_168_20_47.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_192_168_20_47.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+49
+</td>
+<td>
+192.168.20.48
+</td>
+<td>
+Average Queue Waiting = 1888.308125 <br> Maximum Queue Waiting = 50704.607000 
+</td>
+<td>
+Average Arrival Rate = 0.34 <br> Maximum Arrival Rate = 0.55 
+</td>
+<td>
+Average Throughput = 0.34 <br> Maximum Throughput = 0.55 
+</td>
+<td>
+Average Queue Size = 2.10 <br> Maximum Queue Size = 42 
+</td>
+<td>
+ Total Notifications = 5016 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_192_168_20_48.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_192_168_20_48.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_192_168_20_48.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_192_168_20_48.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+50
+</td>
+<td>
+192.168.20.49
+</td>
+<td>
+Average Queue Waiting = 10296.851789 <br> Maximum Queue Waiting = 74821.862000 
+</td>
+<td>
+Average Arrival Rate = 1.67 <br> Maximum Arrival Rate = 2.55 
+</td>
+<td>
+Average Throughput = 1.67 <br> Maximum Throughput = 1.50 
+</td>
+<td>
+Average Queue Size = 43.44 <br> Maximum Queue Size = 344 
+</td>
+<td>
+ Total Notifications = 24292 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_192_168_20_49.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_192_168_20_49.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_192_168_20_49.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_192_168_20_49.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+51
+</td>
+<td>
+192.168.20.50
+</td>
+<td>
+Average Queue Waiting = 9293.329277 <br> Maximum Queue Waiting = 88450.317000 
+</td>
+<td>
+Average Arrival Rate = 1.30 <br> Maximum Arrival Rate = 4.75 
+</td>
+<td>
+Average Throughput = 1.30 <br> Maximum Throughput = 3.65 
+</td>
+<td>
+Average Queue Size = 30.26 <br> Maximum Queue Size = 233 
+</td>
+<td>
+ Total Notifications = 19048 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_192_168_20_50.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_192_168_20_50.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_192_168_20_50.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_192_168_20_50.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+52
+</td>
+<td>
+192.168.20.51
+</td>
+<td>
+Average Queue Waiting = 13498.826708 <br> Maximum Queue Waiting = 79033.377000 
+</td>
+<td>
+Average Arrival Rate = 1.83 <br> Maximum Arrival Rate = 6.75 
+</td>
+<td>
+Average Throughput = 1.83 <br> Maximum Throughput = 4.20 
+</td>
+<td>
+Average Queue Size = 66.95 <br> Maximum Queue Size = 267 
+</td>
+<td>
+ Total Notifications = 26562 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_192_168_20_51.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_192_168_20_51.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_192_168_20_51.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_192_168_20_51.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+53
+</td>
+<td>
+192.168.20.52
+</td>
+<td>
+Average Queue Waiting = 8423.515651 <br> Maximum Queue Waiting = 87217.569000 
+</td>
+<td>
+Average Arrival Rate = 1.00 <br> Maximum Arrival Rate = 4.40 
+</td>
+<td>
+Average Throughput = 1.00 <br> Maximum Throughput = 2.15 
+</td>
+<td>
+Average Queue Size = 25.09 <br> Maximum Queue Size = 144 
+</td>
+<td>
+ Total Notifications = 14640 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_192_168_20_52.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_192_168_20_52.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_192_168_20_52.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_192_168_20_52.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+54
+</td>
+<td>
+192.168.20.53
+</td>
+<td>
+Average Queue Waiting = 10977.991183 <br> Maximum Queue Waiting = 91658.144000 
+</td>
+<td>
+Average Arrival Rate = 1.70 <br> Maximum Arrival Rate = 0.05 
+</td>
+<td>
+Average Throughput = 1.70 <br> Maximum Throughput = 6.30 
+</td>
+<td>
+Average Queue Size = 43.44 <br> Maximum Queue Size = 325 
+</td>
+<td>
+ Total Notifications = 24681 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_192_168_20_53.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_192_168_20_53.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_192_168_20_53.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_192_168_20_53.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+55
+</td>
+<td>
+192.168.20.54
+</td>
+<td>
+Average Queue Waiting = 2876587.597004 <br> Maximum Queue Waiting = 6871664.028000 
+</td>
+<td>
+Average Arrival Rate = 10.42 <br> Maximum Arrival Rate = 403.75 
+</td>
+<td>
+Average Throughput = 7.37 <br> Maximum Throughput = 8.45 
+</td>
+<td>
+Average Queue Size = 23961.68 <br> Maximum Queue Size = 57257 
+</td>
+<td>
+ Total Notifications = 152791 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = YES  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_192_168_20_54.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_192_168_20_54.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_192_168_20_54.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_192_168_20_54.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+56
+</td>
+<td>
+192.168.20.55
+</td>
+<td>
+Average Queue Waiting = 7667.616596 <br> Maximum Queue Waiting = 88215.944000 
+</td>
+<td>
+Average Arrival Rate = 0.94 <br> Maximum Arrival Rate = 0.05 
+</td>
+<td>
+Average Throughput = 0.94 <br> Maximum Throughput = 0.05 
+</td>
+<td>
+Average Queue Size = 18.53 <br> Maximum Queue Size = 103 
+</td>
+<td>
+ Total Notifications = 13799 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_192_168_20_55.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_192_168_20_55.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_192_168_20_55.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_192_168_20_55.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+57
+</td>
+<td>
+10.0.3.22
+</td>
+<td>
+Average Queue Waiting = 7085.731259 <br> Maximum Queue Waiting = 83145.476000 
+</td>
+<td>
+Average Arrival Rate = 0.80 <br> Maximum Arrival Rate = 1.45 
+</td>
+<td>
+Average Throughput = 0.80 <br> Maximum Throughput = 1.05 
+</td>
+<td>
+Average Queue Size = 15.87 <br> Maximum Queue Size = 151 
+</td>
+<td>
+ Total Notifications = 11795 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_10_0_3_22.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_10_0_3_22.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_10_0_3_22.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_10_0_3_22.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+58
+</td>
+<td>
+10.0.3.23
+</td>
+<td>
+Average Queue Waiting = 18944.443362 <br> Maximum Queue Waiting = 82555.491000 
+</td>
+<td>
+Average Arrival Rate = 2.50 <br> Maximum Arrival Rate = 8.90 
+</td>
+<td>
+Average Throughput = 2.50 <br> Maximum Throughput = 8.35 
+</td>
+<td>
+Average Queue Size = 111.98 <br> Maximum Queue Size = 413 
+</td>
+<td>
+ Total Notifications = 36600 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_10_0_3_23.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_10_0_3_23.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_10_0_3_23.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_10_0_3_23.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+59
+</td>
+<td>
+10.0.3.24
+</td>
+<td>
+Average Queue Waiting = 12466.746697 <br> Maximum Queue Waiting = 76834.467000 
+</td>
+<td>
+Average Arrival Rate = 1.55 <br> Maximum Arrival Rate = 5.90 
+</td>
+<td>
+Average Throughput = 1.55 <br> Maximum Throughput = 3.75 
+</td>
+<td>
+Average Queue Size = 53.53 <br> Maximum Queue Size = 289 
+</td>
+<td>
+ Total Notifications = 22731 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_10_0_3_24.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_10_0_3_24.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_10_0_3_24.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_10_0_3_24.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+60
+</td>
+<td>
+10.0.3.25
+</td>
+<td>
+Average Queue Waiting = 1948.872778 <br> Maximum Queue Waiting = 56746.087000 
+</td>
+<td>
+Average Arrival Rate = 0.29 <br> Maximum Arrival Rate = 1.05 
+</td>
+<td>
+Average Throughput = 0.29 <br> Maximum Throughput = 1.05 
+</td>
+<td>
+Average Queue Size = 2.27 <br> Maximum Queue Size = 34 
+</td>
+<td>
+ Total Notifications = 4308 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_10_0_3_25.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_10_0_3_25.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_10_0_3_25.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_10_0_3_25.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+61
+</td>
+<td>
+10.0.3.26
+</td>
+<td>
+Average Queue Waiting = 10306.508168 <br> Maximum Queue Waiting = 96097.720000 
+</td>
+<td>
+Average Arrival Rate = 1.51 <br> Maximum Arrival Rate = 1.80 
+</td>
+<td>
+Average Throughput = 1.50 <br> Maximum Throughput = 0.80 
+</td>
+<td>
+Average Queue Size = 38.40 <br> Maximum Queue Size = 198 
+</td>
+<td>
+ Total Notifications = 22019 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_10_0_3_26.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_10_0_3_26.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_10_0_3_26.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_10_0_3_26.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+62
+</td>
+<td>
+10.0.3.27
+</td>
+<td>
+Average Queue Waiting = 8296.065194 <br> Maximum Queue Waiting = 87421.937000 
+</td>
+<td>
+Average Arrival Rate = 0.87 <br> Maximum Arrival Rate = 3.20 
+</td>
+<td>
+Average Throughput = 0.87 <br> Maximum Throughput = 3.20 
+</td>
+<td>
+Average Queue Size = 20.40 <br> Maximum Queue Size = 118 
+</td>
+<td>
+ Total Notifications = 12444 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_10_0_3_27.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_10_0_3_27.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_10_0_3_27.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_10_0_3_27.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+63
+</td>
+<td>
+10.0.3.28
+</td>
+<td>
+Average Queue Waiting = 10023.219487 <br> Maximum Queue Waiting = 64957.218000 
+</td>
+<td>
+Average Arrival Rate = 1.22 <br> Maximum Arrival Rate = 1.50 
+</td>
+<td>
+Average Throughput = 1.22 <br> Maximum Throughput = 1.75 
+</td>
+<td>
+Average Queue Size = 30.63 <br> Maximum Queue Size = 135 
+</td>
+<td>
+ Total Notifications = 17794 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_10_0_3_28.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_10_0_3_28.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_10_0_3_28.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_10_0_3_28.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+64
+</td>
+<td>
+10.0.3.29
+</td>
+<td>
+Average Queue Waiting = 9734.655435 <br> Maximum Queue Waiting = 94152.641000 
+</td>
+<td>
+Average Arrival Rate = 1.22 <br> Maximum Arrival Rate = 4.15 
+</td>
+<td>
+Average Throughput = 1.21 <br> Maximum Throughput = 2.55 
+</td>
+<td>
+Average Queue Size = 28.62 <br> Maximum Queue Size = 324 
+</td>
+<td>
+ Total Notifications = 17728 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_10_0_3_29.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_10_0_3_29.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_10_0_3_29.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_10_0_3_29.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+65
+</td>
+<td>
+10.0.3.30
+</td>
+<td>
+Average Queue Waiting = 11912.766338 <br> Maximum Queue Waiting = 97216.500000 
+</td>
+<td>
+Average Arrival Rate = 1.41 <br> Maximum Arrival Rate = 4.00 
+</td>
+<td>
+Average Throughput = 1.41 <br> Maximum Throughput = 4.00 
+</td>
+<td>
+Average Queue Size = 42.34 <br> Maximum Queue Size = 385 
+</td>
+<td>
+ Total Notifications = 20409 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_10_0_3_30.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_10_0_3_30.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_10_0_3_30.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_10_0_3_30.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+66
+</td>
+<td>
+10.0.3.31
+</td>
+<td>
+Average Queue Waiting = 1643.487670 <br> Maximum Queue Waiting = 53669.749000 
+</td>
+<td>
+Average Arrival Rate = 0.36 <br> Maximum Arrival Rate = 0.60 
+</td>
+<td>
+Average Throughput = 0.36 <br> Maximum Throughput = 0.60 
+</td>
+<td>
+Average Queue Size = 2.04 <br> Maximum Queue Size = 56 
+</td>
+<td>
+ Total Notifications = 5317 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_10_0_3_31.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_10_0_3_31.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_10_0_3_31.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_10_0_3_31.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+67
+</td>
+<td>
+10.0.3.32
+</td>
+<td>
+Average Queue Waiting = 13158.616021 <br> Maximum Queue Waiting = 98638.263000 
+</td>
+<td>
+Average Arrival Rate = 1.54 <br> Maximum Arrival Rate = 4.80 
+</td>
+<td>
+Average Throughput = 1.54 <br> Maximum Throughput = 5.90 
+</td>
+<td>
+Average Queue Size = 54.99 <br> Maximum Queue Size = 478 
+</td>
+<td>
+ Total Notifications = 22536 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_10_0_3_32.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_10_0_3_32.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_10_0_3_32.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_10_0_3_32.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+68
+</td>
+<td>
+10.0.3.33
+</td>
+<td>
+Average Queue Waiting = 13301.413010 <br> Maximum Queue Waiting = 93276.157000 
+</td>
+<td>
+Average Arrival Rate = 1.98 <br> Maximum Arrival Rate = 6.90 
+</td>
+<td>
+Average Throughput = 1.98 <br> Maximum Throughput = 8.35 
+</td>
+<td>
+Average Queue Size = 63.25 <br> Maximum Queue Size = 516 
+</td>
+<td>
+ Total Notifications = 29033 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_10_0_3_33.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_10_0_3_33.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_10_0_3_33.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_10_0_3_33.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+69
+</td>
+<td>
+10.0.3.34
+</td>
+<td>
+Average Queue Waiting = 1812.670754 <br> Maximum Queue Waiting = 45669.137000 
+</td>
+<td>
+Average Arrival Rate = 0.34 <br> Maximum Arrival Rate = 0.85 
+</td>
+<td>
+Average Throughput = 0.34 <br> Maximum Throughput = 0.85 
+</td>
+<td>
+Average Queue Size = 2.08 <br> Maximum Queue Size = 26 
+</td>
+<td>
+ Total Notifications = 5015 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_10_0_3_34.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_10_0_3_34.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_10_0_3_34.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_10_0_3_34.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+70
+</td>
+<td>
+10.0.3.35
+</td>
+<td>
+Average Queue Waiting = 2455.428992 <br> Maximum Queue Waiting = 59248.545000 
+</td>
+<td>
+Average Arrival Rate = 0.24 <br> Maximum Arrival Rate = 0.15 
+</td>
+<td>
+Average Throughput = 0.24 <br> Maximum Throughput = 0.05 
+</td>
+<td>
+Average Queue Size = 2.60 <br> Maximum Queue Size = 28 
+</td>
+<td>
+ Total Notifications = 3550 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_10_0_3_35.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_10_0_3_35.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_10_0_3_35.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_10_0_3_35.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+71
+</td>
+<td>
+10.0.3.36
+</td>
+<td>
+Average Queue Waiting = 1967788.725975 <br> Maximum Queue Waiting = 5177650.424000 
+</td>
+<td>
+Average Arrival Rate = 6.87 <br> Maximum Arrival Rate = 5.75 
+</td>
+<td>
+Average Throughput = 5.69 <br> Maximum Throughput = 8.35 
+</td>
+<td>
+Average Queue Size = 16334.28 <br> Maximum Queue Size = 43074 
+</td>
+<td>
+ Total Notifications = 99035 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = YES  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_10_0_3_36.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_10_0_3_36.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_10_0_3_36.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_10_0_3_36.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+72
+</td>
+<td>
+10.0.3.37
+</td>
+<td>
+Average Queue Waiting = 10859.626345 <br> Maximum Queue Waiting = 72764.987000 
+</td>
+<td>
+Average Arrival Rate = 1.44 <br> Maximum Arrival Rate = 1.50 
+</td>
+<td>
+Average Throughput = 1.44 <br> Maximum Throughput = 0.20 
+</td>
+<td>
+Average Queue Size = 40.20 <br> Maximum Queue Size = 214 
+</td>
+<td>
+ Total Notifications = 21104 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_10_0_3_37.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_10_0_3_37.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_10_0_3_37.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_10_0_3_37.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+73
+</td>
+<td>
+10.0.3.38
+</td>
+<td>
+Average Queue Waiting = 17657.093560 <br> Maximum Queue Waiting = 85098.056000 
+</td>
+<td>
+Average Arrival Rate = 2.78 <br> Maximum Arrival Rate = 1.10 
+</td>
+<td>
+Average Throughput = 2.78 <br> Maximum Throughput = 0.30 
+</td>
+<td>
+Average Queue Size = 109.25 <br> Maximum Queue Size = 562 
+</td>
+<td>
+ Total Notifications = 40430 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_10_0_3_38.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_10_0_3_38.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_10_0_3_38.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_10_0_3_38.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+74
+</td>
+<td>
+10.0.3.39
+</td>
+<td>
+Average Queue Waiting = 11017.581121 <br> Maximum Queue Waiting = 98421.728000 
+</td>
+<td>
+Average Arrival Rate = 1.49 <br> Maximum Arrival Rate = 1.10 
+</td>
+<td>
+Average Throughput = 1.49 <br> Maximum Throughput = 2.45 
+</td>
+<td>
+Average Queue Size = 43.20 <br> Maximum Queue Size = 209 
+</td>
+<td>
+ Total Notifications = 21815 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_10_0_3_39.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_10_0_3_39.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_10_0_3_39.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_10_0_3_39.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+75
+</td>
+<td>
+10.0.3.40
+</td>
+<td>
+Average Queue Waiting = 16985.351065 <br> Maximum Queue Waiting = 82592.155000 
+</td>
+<td>
+Average Arrival Rate = 1.71 <br> Maximum Arrival Rate = 7.05 
+</td>
+<td>
+Average Throughput = 1.71 <br> Maximum Throughput = 8.20 
+</td>
+<td>
+Average Queue Size = 88.06 <br> Maximum Queue Size = 329 
+</td>
+<td>
+ Total Notifications = 24950 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_10_0_3_40.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_10_0_3_40.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_10_0_3_40.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_10_0_3_40.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+76
+</td>
+<td>
+10.0.3.41
+</td>
+<td>
+Average Queue Waiting = 7551.125168 <br> Maximum Queue Waiting = 83728.998000 
+</td>
+<td>
+Average Arrival Rate = 0.94 <br> Maximum Arrival Rate = 0.05 
+</td>
+<td>
+Average Throughput = 0.94 <br> Maximum Throughput = 1.10 
+</td>
+<td>
+Average Queue Size = 20.54 <br> Maximum Queue Size = 245 
+</td>
+<td>
+ Total Notifications = 13835 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_10_0_3_41.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_10_0_3_41.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_10_0_3_41.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_10_0_3_41.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+77
+</td>
+<td>
+10.0.3.42
+</td>
+<td>
+Average Queue Waiting = 387631.641861 <br> Maximum Queue Waiting = 1114194.964000 
+</td>
+<td>
+Average Arrival Rate = 3.95 <br> Maximum Arrival Rate = 81.50 
+</td>
+<td>
+Average Throughput = 3.95 <br> Maximum Throughput = 2.35 
+</td>
+<td>
+Average Queue Size = 3122.29 <br> Maximum Queue Size = 9290 
+</td>
+<td>
+ Total Notifications = 57872 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = YES  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_10_0_3_42.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_10_0_3_42.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_10_0_3_42.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_10_0_3_42.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+78
+</td>
+<td>
+172.1.103.89
+</td>
+<td>
+Average Queue Waiting = 16788.989851 <br> Maximum Queue Waiting = 81601.843000 
+</td>
+<td>
+Average Arrival Rate = 1.52 <br> Maximum Arrival Rate = 6.25 
+</td>
+<td>
+Average Throughput = 1.51 <br> Maximum Throughput = 7.65 
+</td>
+<td>
+Average Queue Size = 75.49 <br> Maximum Queue Size = 390 
+</td>
+<td>
+ Total Notifications = 21935 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_172_1_103_89.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_172_1_103_89.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_172_1_103_89.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_172_1_103_89.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+79
+</td>
+<td>
+172.1.103.90
+</td>
+<td>
+Average Queue Waiting = 401616.020189 <br> Maximum Queue Waiting = 1327966.147000 
+</td>
+<td>
+Average Arrival Rate = 4.68 <br> Maximum Arrival Rate = 4.80 
+</td>
+<td>
+Average Throughput = 4.48 <br> Maximum Throughput = 8.40 
+</td>
+<td>
+Average Queue Size = 3254.68 <br> Maximum Queue Size = 11043 
+</td>
+<td>
+ Total Notifications = 68499 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = YES  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_172_1_103_90.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_172_1_103_90.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_172_1_103_90.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_172_1_103_90.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+80
+</td>
+<td>
+172.1.103.91
+</td>
+<td>
+Average Queue Waiting = 17059.745166 <br> Maximum Queue Waiting = 77109.827000 
+</td>
+<td>
+Average Arrival Rate = 2.30 <br> Maximum Arrival Rate = 6.45 
+</td>
+<td>
+Average Throughput = 2.30 <br> Maximum Throughput = 2.10 
+</td>
+<td>
+Average Queue Size = 101.03 <br> Maximum Queue Size = 470 
+</td>
+<td>
+ Total Notifications = 33773 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_172_1_103_91.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_172_1_103_91.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_172_1_103_91.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_172_1_103_91.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+81
+</td>
+<td>
+172.1.103.92
+</td>
+<td>
+Average Queue Waiting = 12908.198045 <br> Maximum Queue Waiting = 76831.752000 
+</td>
+<td>
+Average Arrival Rate = 2.67 <br> Maximum Arrival Rate = 0.90 
+</td>
+<td>
+Average Throughput = 2.67 <br> Maximum Throughput = 3.55 
+</td>
+<td>
+Average Queue Size = 74.67 <br> Maximum Queue Size = 376 
+</td>
+<td>
+ Total Notifications = 39164 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_172_1_103_92.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_172_1_103_92.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_172_1_103_92.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_172_1_103_92.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+82
+</td>
+<td>
+172.1.103.93
+</td>
+<td>
+Average Queue Waiting = 10045.199534 <br> Maximum Queue Waiting = 63656.737000 
+</td>
+<td>
+Average Arrival Rate = 1.38 <br> Maximum Arrival Rate = 4.90 
+</td>
+<td>
+Average Throughput = 1.38 <br> Maximum Throughput = 2.65 
+</td>
+<td>
+Average Queue Size = 39.71 <br> Maximum Queue Size = 210 
+</td>
+<td>
+ Total Notifications = 20194 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_172_1_103_93.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_172_1_103_93.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_172_1_103_93.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_172_1_103_93.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+83
+</td>
+<td>
+172.1.103.94
+</td>
+<td>
+Average Queue Waiting = 7548.667721 <br> Maximum Queue Waiting = 85933.416000 
+</td>
+<td>
+Average Arrival Rate = 0.68 <br> Maximum Arrival Rate = 2.90 
+</td>
+<td>
+Average Throughput = 0.68 <br> Maximum Throughput = 1.95 
+</td>
+<td>
+Average Queue Size = 17.32 <br> Maximum Queue Size = 200 
+</td>
+<td>
+ Total Notifications = 9917 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_172_1_103_94.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_172_1_103_94.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_172_1_103_94.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_172_1_103_94.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+84
+</td>
+<td>
+172.1.103.95
+</td>
+<td>
+Average Queue Waiting = 14433.521807 <br> Maximum Queue Waiting = 95425.953000 
+</td>
+<td>
+Average Arrival Rate = 1.69 <br> Maximum Arrival Rate = 4.35 
+</td>
+<td>
+Average Throughput = 1.69 <br> Maximum Throughput = 3.20 
+</td>
+<td>
+Average Queue Size = 70.98 <br> Maximum Queue Size = 334 
+</td>
+<td>
+ Total Notifications = 24793 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_172_1_103_95.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_172_1_103_95.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_172_1_103_95.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_172_1_103_95.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+85
+</td>
+<td>
+172.1.103.96
+</td>
+<td>
+Average Queue Waiting = 4579.247148 <br> Maximum Queue Waiting = 56475.387000 
+</td>
+<td>
+Average Arrival Rate = 0.54 <br> Maximum Arrival Rate = 2.35 
+</td>
+<td>
+Average Throughput = 0.54 <br> Maximum Throughput = 2.55 
+</td>
+<td>
+Average Queue Size = 7.82 <br> Maximum Queue Size = 65 
+</td>
+<td>
+ Total Notifications = 7861 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_172_1_103_96.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_172_1_103_96.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_172_1_103_96.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_172_1_103_96.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+86
+</td>
+<td>
+172.1.103.97
+</td>
+<td>
+Average Queue Waiting = 12897.780709 <br> Maximum Queue Waiting = 75483.839000 
+</td>
+<td>
+Average Arrival Rate = 1.35 <br> Maximum Arrival Rate = 0.80 
+</td>
+<td>
+Average Throughput = 1.35 <br> Maximum Throughput = 0.55 
+</td>
+<td>
+Average Queue Size = 51.60 <br> Maximum Queue Size = 206 
+</td>
+<td>
+ Total Notifications = 19784 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_172_1_103_97.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_172_1_103_97.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_172_1_103_97.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_172_1_103_97.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+87
+</td>
+<td>
+172.1.103.98
+</td>
+<td>
+Average Queue Waiting = 4191.618438 <br> Maximum Queue Waiting = 80959.066000 
+</td>
+<td>
+Average Arrival Rate = 0.68 <br> Maximum Arrival Rate = 0.65 
+</td>
+<td>
+Average Throughput = 0.68 <br> Maximum Throughput = 0.20 
+</td>
+<td>
+Average Queue Size = 7.63 <br> Maximum Queue Size = 89 
+</td>
+<td>
+ Total Notifications = 9943 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_172_1_103_98.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_172_1_103_98.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_172_1_103_98.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_172_1_103_98.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+88
+</td>
+<td>
+172.1.103.99
+</td>
+<td>
+Average Queue Waiting = 6656.407626 <br> Maximum Queue Waiting = 68363.142000 
+</td>
+<td>
+Average Arrival Rate = 1.06 <br> Maximum Arrival Rate = 2.05 
+</td>
+<td>
+Average Throughput = 1.06 <br> Maximum Throughput = 2.15 
+</td>
+<td>
+Average Queue Size = 16.81 <br> Maximum Queue Size = 102 
+</td>
+<td>
+ Total Notifications = 15530 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_172_1_103_99.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_172_1_103_99.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_172_1_103_99.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_172_1_103_99.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+89
+</td>
+<td>
+172.1.103.100
+</td>
+<td>
+Average Queue Waiting = 13984.854403 <br> Maximum Queue Waiting = 72871.951000 
+</td>
+<td>
+Average Arrival Rate = 1.53 <br> Maximum Arrival Rate = 5.25 
+</td>
+<td>
+Average Throughput = 1.53 <br> Maximum Throughput = 8.35 
+</td>
+<td>
+Average Queue Size = 69.39 <br> Maximum Queue Size = 265 
+</td>
+<td>
+ Total Notifications = 22379 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_172_1_103_100.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_172_1_103_100.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_172_1_103_100.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_172_1_103_100.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+90
+</td>
+<td>
+172.1.103.101
+</td>
+<td>
+Average Queue Waiting = 1632.505315 <br> Maximum Queue Waiting = 47781.773000 
+</td>
+<td>
+Average Arrival Rate = 0.31 <br> Maximum Arrival Rate = 0.75 
+</td>
+<td>
+Average Throughput = 0.31 <br> Maximum Throughput = 0.75 
+</td>
+<td>
+Average Queue Size = 1.99 <br> Maximum Queue Size = 30 
+</td>
+<td>
+ Total Notifications = 4541 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_172_1_103_101.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_172_1_103_101.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_172_1_103_101.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_172_1_103_101.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+91
+</td>
+<td>
+172.1.103.102
+</td>
+<td>
+Average Queue Waiting = 11242.080002 <br> Maximum Queue Waiting = 93020.268000 
+</td>
+<td>
+Average Arrival Rate = 0.95 <br> Maximum Arrival Rate = 2.75 
+</td>
+<td>
+Average Throughput = 0.95 <br> Maximum Throughput = 2.20 
+</td>
+<td>
+Average Queue Size = 36.05 <br> Maximum Queue Size = 294 
+</td>
+<td>
+ Total Notifications = 13847 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_172_1_103_102.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_172_1_103_102.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_172_1_103_102.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_172_1_103_102.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+92
+</td>
+<td>
+172.1.103.103
+</td>
+<td>
+Average Queue Waiting = 11232.443264 <br> Maximum Queue Waiting = 78515.370000 
+</td>
+<td>
+Average Arrival Rate = 1.11 <br> Maximum Arrival Rate = 1.40 
+</td>
+<td>
+Average Throughput = 1.11 <br> Maximum Throughput = 0.60 
+</td>
+<td>
+Average Queue Size = 39.54 <br> Maximum Queue Size = 204 
+</td>
+<td>
+ Total Notifications = 16303 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_172_1_103_103.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_172_1_103_103.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_172_1_103_103.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_172_1_103_103.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+93
+</td>
+<td>
+172.1.103.104
+</td>
+<td>
+Average Queue Waiting = 10163.780422 <br> Maximum Queue Waiting = 70760.340000 
+</td>
+<td>
+Average Arrival Rate = 0.97 <br> Maximum Arrival Rate = 0.55 
+</td>
+<td>
+Average Throughput = 0.97 <br> Maximum Throughput = 1.30 
+</td>
+<td>
+Average Queue Size = 30.12 <br> Maximum Queue Size = 149 
+</td>
+<td>
+ Total Notifications = 14014 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_172_1_103_104.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_172_1_103_104.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_172_1_103_104.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_172_1_103_104.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+94
+</td>
+<td>
+172.1.103.105
+</td>
+<td>
+Average Queue Waiting = 13776.295720 <br> Maximum Queue Waiting = 78799.107000 
+</td>
+<td>
+Average Arrival Rate = 2.00 <br> Maximum Arrival Rate = 5.40 
+</td>
+<td>
+Average Throughput = 2.00 <br> Maximum Throughput = 5.40 
+</td>
+<td>
+Average Queue Size = 68.67 <br> Maximum Queue Size = 458 
+</td>
+<td>
+ Total Notifications = 29156 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_172_1_103_105.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_172_1_103_105.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_172_1_103_105.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_172_1_103_105.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+95
+</td>
+<td>
+192.168.205.162
+</td>
+<td>
+Average Queue Waiting = 9302.553889 <br> Maximum Queue Waiting = 93197.808000 
+</td>
+<td>
+Average Arrival Rate = 0.91 <br> Maximum Arrival Rate = 2.55 
+</td>
+<td>
+Average Throughput = 0.91 <br> Maximum Throughput = 1.65 
+</td>
+<td>
+Average Queue Size = 25.38 <br> Maximum Queue Size = 189 
+</td>
+<td>
+ Total Notifications = 13356 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_192_168_205_162.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_192_168_205_162.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_192_168_205_162.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_192_168_205_162.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+96
+</td>
+<td>
+192.168.205.163
+</td>
+<td>
+Average Queue Waiting = 9227.044870 <br> Maximum Queue Waiting = 67550.226000 
+</td>
+<td>
+Average Arrival Rate = 1.08 <br> Maximum Arrival Rate = 0.45 
+</td>
+<td>
+Average Throughput = 1.08 <br> Maximum Throughput = 2.40 
+</td>
+<td>
+Average Queue Size = 28.37 <br> Maximum Queue Size = 150 
+</td>
+<td>
+ Total Notifications = 15686 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_192_168_205_163.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_192_168_205_163.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_192_168_205_163.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_192_168_205_163.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+97
+</td>
+<td>
+192.168.205.164
+</td>
+<td>
+Average Queue Waiting = 12227.350624 <br> Maximum Queue Waiting = 75846.322000 
+</td>
+<td>
+Average Arrival Rate = 1.93 <br> Maximum Arrival Rate = 2.05 
+</td>
+<td>
+Average Throughput = 1.93 <br> Maximum Throughput = 0.75 
+</td>
+<td>
+Average Queue Size = 54.49 <br> Maximum Queue Size = 273 
+</td>
+<td>
+ Total Notifications = 28330 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_192_168_205_164.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_192_168_205_164.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_192_168_205_164.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_192_168_205_164.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+98
+</td>
+<td>
+192.168.205.165
+</td>
+<td>
+Average Queue Waiting = 2187519.902943 <br> Maximum Queue Waiting = 5614710.551000 
+</td>
+<td>
+Average Arrival Rate = 10.12 <br> Maximum Arrival Rate = 175.05 
+</td>
+<td>
+Average Throughput = 7.99 <br> Maximum Throughput = 8.35 
+</td>
+<td>
+Average Queue Size = 18189.50 <br> Maximum Queue Size = 46699 
+</td>
+<td>
+ Total Notifications = 147976 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = YES  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_192_168_205_165.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_192_168_205_165.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_192_168_205_165.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_192_168_205_165.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+99
+</td>
+<td>
+192.168.205.166
+</td>
+<td>
+Average Queue Waiting = 5245.270023 <br> Maximum Queue Waiting = 55422.615000 
+</td>
+<td>
+Average Arrival Rate = 0.83 <br> Maximum Arrival Rate = 3.05 
+</td>
+<td>
+Average Throughput = 0.83 <br> Maximum Throughput = 5.95 
+</td>
+<td>
+Average Queue Size = 12.91 <br> Maximum Queue Size = 103 
+</td>
+<td>
+ Total Notifications = 12085 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_192_168_205_166.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_192_168_205_166.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_192_168_205_166.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_192_168_205_166.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+100
+</td>
+<td>
+192.168.205.167
+</td>
+<td>
+Average Queue Waiting = 6113.219158 <br> Maximum Queue Waiting = 57141.598000 
+</td>
+<td>
+Average Arrival Rate = 0.72 <br> Maximum Arrival Rate = 2.65 
+</td>
+<td>
+Average Throughput = 0.72 <br> Maximum Throughput = 0.85 
+</td>
+<td>
+Average Queue Size = 14.18 <br> Maximum Queue Size = 107 
+</td>
+<td>
+ Total Notifications = 10527 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_192_168_205_167.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_192_168_205_167.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_192_168_205_167.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_192_168_205_167.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+101
+</td>
+<td>
+192.168.205.168
+</td>
+<td>
+Average Queue Waiting = 18108.559610 <br> Maximum Queue Waiting = 89140.327000 
+</td>
+<td>
+Average Arrival Rate = 1.97 <br> Maximum Arrival Rate = 7.15 
+</td>
+<td>
+Average Throughput = 1.96 <br> Maximum Throughput = 2.50 
+</td>
+<td>
+Average Queue Size = 95.87 <br> Maximum Queue Size = 544 
+</td>
+<td>
+ Total Notifications = 28662 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_192_168_205_168.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_192_168_205_168.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_192_168_205_168.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_192_168_205_168.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+102
+</td>
+<td>
+192.168.205.169
+</td>
+<td>
+Average Queue Waiting = 11083.076030 <br> Maximum Queue Waiting = 99322.184000 
+</td>
+<td>
+Average Arrival Rate = 1.39 <br> Maximum Arrival Rate = 4.05 
+</td>
+<td>
+Average Throughput = 1.39 <br> Maximum Throughput = 4.25 
+</td>
+<td>
+Average Queue Size = 45.52 <br> Maximum Queue Size = 230 
+</td>
+<td>
+ Total Notifications = 20417 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_192_168_205_169.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_192_168_205_169.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_192_168_205_169.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_192_168_205_169.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+103
+</td>
+<td>
+192.168.205.170
+</td>
+<td>
+Average Queue Waiting = 6418.687314 <br> Maximum Queue Waiting = 80805.271000 
+</td>
+<td>
+Average Arrival Rate = 1.16 <br> Maximum Arrival Rate = 3.35 
+</td>
+<td>
+Average Throughput = 1.16 <br> Maximum Throughput = 2.30 
+</td>
+<td>
+Average Queue Size = 16.41 <br> Maximum Queue Size = 117 
+</td>
+<td>
+ Total Notifications = 16805 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_192_168_205_170.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_192_168_205_170.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_192_168_205_170.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_192_168_205_170.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+104
+</td>
+<td>
+192.168.205.171
+</td>
+<td>
+Average Queue Waiting = 830188.731110 <br> Maximum Queue Waiting = 2576185.825000 
+</td>
+<td>
+Average Arrival Rate = 6.46 <br> Maximum Arrival Rate = 256.90 
+</td>
+<td>
+Average Throughput = 6.01 <br> Maximum Throughput = 8.35 
+</td>
+<td>
+Average Queue Size = 6860.47 <br> Maximum Queue Size = 21491 
+</td>
+<td>
+ Total Notifications = 94225 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = YES  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_192_168_205_171.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_192_168_205_171.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_192_168_205_171.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_192_168_205_171.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+105
+</td>
+<td>
+192.168.205.172
+</td>
+<td>
+Average Queue Waiting = 4469.998829 <br> Maximum Queue Waiting = 81693.776000 
+</td>
+<td>
+Average Arrival Rate = 0.61 <br> Maximum Arrival Rate = 0.50 
+</td>
+<td>
+Average Throughput = 0.61 <br> Maximum Throughput = 0.75 
+</td>
+<td>
+Average Queue Size = 7.26 <br> Maximum Queue Size = 66 
+</td>
+<td>
+ Total Notifications = 8922 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_192_168_205_172.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_192_168_205_172.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_192_168_205_172.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_192_168_205_172.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+106
+</td>
+<td>
+192.168.205.173
+</td>
+<td>
+Average Queue Waiting = 15062.618687 <br> Maximum Queue Waiting = 93528.306000 
+</td>
+<td>
+Average Arrival Rate = 1.53 <br> Maximum Arrival Rate = 2.15 
+</td>
+<td>
+Average Throughput = 1.53 <br> Maximum Throughput = 0.50 
+</td>
+<td>
+Average Queue Size = 64.22 <br> Maximum Queue Size = 288 
+</td>
+<td>
+ Total Notifications = 22417 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_192_168_205_173.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_192_168_205_173.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_192_168_205_173.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_192_168_205_173.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+107
+</td>
+<td>
+192.168.205.174
+</td>
+<td>
+Average Queue Waiting = 13773.136321 <br> Maximum Queue Waiting = 80378.590000 
+</td>
+<td>
+Average Arrival Rate = 1.46 <br> Maximum Arrival Rate = 5.80 
+</td>
+<td>
+Average Throughput = 1.46 <br> Maximum Throughput = 5.75 
+</td>
+<td>
+Average Queue Size = 64.29 <br> Maximum Queue Size = 229 
+</td>
+<td>
+ Total Notifications = 21399 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_192_168_205_174.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_192_168_205_174.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_192_168_205_174.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_192_168_205_174.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+108
+</td>
+<td>
+192.168.205.175
+</td>
+<td>
+Average Queue Waiting = 5227.294279 <br> Maximum Queue Waiting = 74461.320000 
+</td>
+<td>
+Average Arrival Rate = 0.57 <br> Maximum Arrival Rate = 1.10 
+</td>
+<td>
+Average Throughput = 0.57 <br> Maximum Throughput = 1.15 
+</td>
+<td>
+Average Queue Size = 9.64 <br> Maximum Queue Size = 130 
+</td>
+<td>
+ Total Notifications = 8382 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_192_168_205_175.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_192_168_205_175.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_192_168_205_175.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_192_168_205_175.html">Queue Size</a> <br></td>
+</tr>
+<tr>
+<td>
+109
+</td>
+<td>
+192.168.205.176
+</td>
+<td>
+Average Queue Waiting = 17385.373695 <br> Maximum Queue Waiting = 89379.705000 
+</td>
+<td>
+Average Arrival Rate = 2.54 <br> Maximum Arrival Rate = 6.55 
+</td>
+<td>
+Average Throughput = 2.53 <br> Maximum Throughput = 7.70 
+</td>
+<td>
+Average Queue Size = 104.00 <br> Maximum Queue Size = 471 
+</td>
+<td>
+ Total Notifications = 37020 <br> Out of Sequence Notifications = 0 <br> Is NE Faulty Detected = NO  
+</td>
+<td>
+<a href="./SFHS/QdelayLog_192_168_205_176.html">Queue delay</a> <br><a href="./SFHS/ArrivalRateLog_192_168_205_176.html">Arrival Rate</a> <br><a href="./SFHS/ThroughputLog_192_168_205_176.html">Throughput</a> <br> <a href="./SFHS/QsizeLog_192_168_205_176.html">Queue Size</a> <br></td>
+</tr>
+</table>
+</body
+</html>
